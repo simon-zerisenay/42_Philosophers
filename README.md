@@ -58,4 +58,5 @@ Test the program with edge cases, such as a single philosopher or a large number
 Measure the program's resource utilization and efficiency to ensure optimal performance.
 By conducting thorough testing, you can ensure the correctness and effectiveness of your implementation of the dining philosophers problem.
 <br/>
+<br/>
 Note: The optional argument [number_of_times_each_philosopher_must_eat] allows you to specify a condition where each philosopher must eat a certain number of times before the program terminates.

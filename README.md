@@ -29,24 +29,22 @@ The problem arises when each philosopher requires two adjacent forks to eat. If 
 
 The dining philosophers problem aims to find a solution that allows all philosophers to eat without deadlocks or starvation. Several strategies can be employed to address this problem:
 
-Resource Allocation: Each fork can be considered a shared resource, and philosophers must properly allocate and release forks to avoid conflicts. For example, philosophers can be assigned a unique identifier and required to pick up the lower-indexed fork first, minimizing the possibility of circular dependencies.
+<h3>Resource Sharing:</h3>
+Each fork can be considered a shared resource, and philosophers must properly allocate and release forks to avoid conflicts. For example, philosophers can be assigned a unique identifier and required to pick up the lower-indexed fork first, minimizing the possibility of circular dependencies.
 
-Deadlock Avoidance: Implementing a protocol to prevent deadlock is essential. One common approach is to use a limit on the number of philosophers allowed to pick up forks simultaneously. By limiting the number of philosophers, it ensures that at least one philosopher can eat without waiting indefinitely.
+<h3>Deadlock Avoidance:</h3>
+Implementing a protocol to prevent deadlock is essential. One common approach is to use a limit on the number of philosophers allowed to pick up forks simultaneously. By limiting the number of philosophers, it ensures that at least one philosopher can eat without waiting indefinitely.
 
-Synchronization Mechanisms: Various synchronization techniques can be used to ensure proper resource sharing. Mutexes or semaphores can be employed to protect critical sections where philosophers access forks. These mechanisms help enforce mutual exclusion, allowing only one philosopher to hold a fork at a time.
+<h3>Synchronization Mechanisms:</h3>
+Various synchronization techniques can be used to ensure proper resource sharing. Mutexes or semaphores can be employed to protect critical sections where philosophers access forks. These mechanisms help enforce mutual exclusion, allowing only one philosopher to hold a fork at a time.
 
-Fairness: Ensuring fairness is crucial to prevent starvation, where a philosopher is unable to eat due to other philosophers continuously acquiring the required forks. Techniques like a waiter or arbiter can be introduced to control access to the forks, ensuring that each philosopher gets a fair chance to eat.
+<h3>Fairness:</h3>
+Ensuring fairness is crucial to prevent starvation, where a philosopher is unable to eat due to other philosophers continuously acquiring the required forks. Techniques like a waiter or arbiter can be introduced to control access to the forks, ensuring that each philosopher gets a fair chance to eat.
 
 Solving the dining philosophers problem requires finding a balance between resource sharing, synchronization, and avoiding deadlocks or starvation. It is a fundamental problem in concurrent programming, highlighting the complexities of coordinating shared resources among multiple processes or threads.
 
 By studying and implementing solutions to the dining philosophers problem, programmers gain insights into critical synchronization concepts and techniques that are essential in developing robust and efficient concurrent systems.
 
-<h3>Deadlock Avoidance:</h3>
-The program must implement a strategy to avoid deadlock, where each philosopher is waiting for a fork held by the philosopher next to them.
-<h3>Resource Sharing:</h3>
-The forks are shared resources that need to be properly managed to prevent conflicts and ensure fairness.
-<h3>Starvation Prevention:</h3>
-The program should prevent starvation, ensuring that each philosopher gets a fair chance to eat.
 <h2>Installation and Usage</h2>
 To install and run the Philosopher project, follow these steps:
 

@@ -32,7 +32,7 @@
 /*------------------------ PRINT TO STDOUT -------------------------*/
 
 # define ERROR1			"\033[1;31m Invalid Argument Detected \033[0m"
-# define ERROR2			"\033[1;31m The program expects 4-5 Numeric Args: \033[0m"
+# define ERROR2			"\033[1;31m The program expects 4-5 Numeric Args: \033[0m" 
 # define ERROR3			"Ex: ./philo [num of philo] [time 2 die] [time 2 eat]"
 # define GFORK			"🍽️ \e[0;32m grabbed a fork \033[0m"
 # define DIED			"💀 \033[1;31m died \033[0m"

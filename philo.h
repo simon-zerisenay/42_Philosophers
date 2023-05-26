@@ -38,7 +38,7 @@
 # define DIED			"💀 \033[1;31m died \033[0m"
 # define EATING			"🍝 \e[0;34m is eating \033[0m"
 # define THINKING		"🤔 \e[0;33m is thinking \033[0m"
-# define SLEEPING		"🛌 \e[0;36m is sleeping \033[0m"
+# define SLEEPING		"🛌 \e[0;36m is sleeping \033[0m" 
 
 /*---------------------------- STRUCTURES ----------------------------*/
 

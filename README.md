@@ -1,4 +1,4 @@
-<h1>Philosopher</h1>
+<h1>Dinning Philosophers</h1>
 <h2>Introduction</h2>
 <p align="center">
 	<img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/simon-zerisenay/42_Philosophers?color=lightblue" />

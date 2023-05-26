@@ -45,7 +45,7 @@ Compile the project using the provided Makefile:
 				   		 make
 Run the program with the desired number of philosophers: 
 
-		./philo <number_of_philosophers> <time_to_die> <time_to_eat> <time_to_sleep> [number_of_times_each_philosopher_must_eat]
+	./philo <number_of_philosophers> <time_to_die> <time_to_eat> <time_to_sleep> [number_of_times_each_philosopher_must_eat]
 Ensure that you have the necessary libraries and dependencies installed on your system. The project's repository may provide further instructions on any additional requirements.
 
 <h2>Testing</h2>

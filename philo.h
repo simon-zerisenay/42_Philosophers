@@ -54,7 +54,7 @@ typedef struct s_philo
 	int				right_f;
 	int				left_f;
 	t_store			*args;
-}	t_philo;
+}	t_philo; 
 
 typedef struct s_store
 {

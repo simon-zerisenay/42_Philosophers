@@ -1,6 +1,7 @@
-<h1>Dinning Philosophers</h1>
-<div align="center">
 
+<div align="center">
+<h1>Dinning Philosophers</h1>
+	
 <a href="https://github.com/simon-zerisenay/42_Philosophers">![42 Badge](https://github.com/mcombeau/mcombeau/blob/main/42_badges/philosophersm.png)</a>
 
 </div>

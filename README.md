@@ -16,7 +16,7 @@
 	<img alt="Code language count" src="https://img.shields.io/github/languages/count/simon-zerisenay/42_Philosophers?color=yellow" />
 	<img alt="GitHub top language" src="https://img.shields.io/github/languages/top/simon-zerisenay/42_Philosophers?color=blue" />
 	<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/simon-zerisenay/42_Philosophers?color=green" />
-</p> 
+</p>  
 Welcome to the Philosopher project! This project is part of the curriculum at 42 and focuses on solving the dining philosophers problem using threads and synchronization techniques. The dining philosophers problem is a classic synchronization problem in computer science that illustrates resource sharing and deadlock avoidance.
 
 <h2>Objective</h2> 

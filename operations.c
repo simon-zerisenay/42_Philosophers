@@ -12,7 +12,7 @@
 
 #include "philo.h"
 
-void	*single_philo(void *p) 
+void	*single_philo(void *p)
 {
 	t_philo	*plo;
 

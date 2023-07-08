@@ -20,7 +20,7 @@
 Welcome to the Philosopher project! This project is part of the curriculum at 42 and focuses on solving the dining philosophers problem using threads and synchronization techniques. The dining philosophers problem is a classic synchronization problem in computer science that illustrates resource sharing and deadlock avoidance.
  
 <h2>Objective</h2>  
-The main objective of the Philosopher project is to design a program that simulates the dining philosophers problem, where a certain number of philosophers sit around a table with a shared set of forks. The philosophers alternate between thinking and eating, but to eat, they must pick up the two adjacent forks. The challenge is to ensure that each philosopher can successfully eat without causing a deadlock or starvation. 
+The main objective of the Philosopher project is to design a program that simulates the dining philosophers problem, where a certain number of philosophers sit around a table with a shared set of forks. The philosophers alternate between thinking and eating, but to eat, they must pick up the two adjacent forks. The challenge is to ensure that each philosopher can successfully eat without causing a deadlock or starvation.  
  
 <h2>Features</h2> 
 <h3>Program Design</h3> 

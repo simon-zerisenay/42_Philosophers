@@ -29,7 +29,7 @@ The Philosopher project involves designing a program that simulates the dining p
 <h3>Philosophers:</h3> 
 The program represents philosophers as individual threads, each responsible for alternating between thinking and eating.
 <h3>Forks:</h3> 
-The forks are shared resources used by the philosophers to eat. Each philosopher needs two adjacent forks to eat.
+The forks are shared resources used by the philosophers to eat. Each philosopher needs two adjacent forks to eat. 
 <h3>Synchronization:</h3> 
 The program must implement synchronization mechanisms to ensure that the philosophers can access the forks without causing conflicts or deadlocks. Techniques such as mutexes, semaphores, or other synchronization primitives can be used.
 <h2> Dining Philosophers Problem</h2>

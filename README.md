@@ -25,7 +25,7 @@ The main objective of the Philosopher project is to design a program that simula
 <h2>Features</h2> 
 <h3>Program Design</h3>
 The Philosopher project involves designing a program that simulates the dining philosophers problem. The key features of the program include:
-
+ 
 <h3>Philosophers:</h3> 
 The program represents philosophers as individual threads, each responsible for alternating between thinking and eating.
 <h3>Forks:</h3> 

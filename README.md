@@ -23,7 +23,7 @@ Welcome to the Philosopher project! This project is part of the curriculum at 42
 The main objective of the Philosopher project is to design a program that simulates the dining philosophers problem, where a certain number of philosophers sit around a table with a shared set of forks. The philosophers alternate between thinking and eating, but to eat, they must pick up the two adjacent forks. The challenge is to ensure that each philosopher can successfully eat without causing a deadlock or starvation. 
  
 <h2>Features</h2> 
-<h3>Program Design</h3>
+<h3>Program Design</h3> 
 The Philosopher project involves designing a program that simulates the dining philosophers problem. The key features of the program include:
  
 <h3>Philosophers:</h3> 

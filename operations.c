@@ -19,7 +19,7 @@ void	*single_philo(void *p)
 	plo = (t_philo *)p;
 	pthread_mutex_lock(&plo->args->fork[plo->left_f]);
 	printer(plo, GFORK);
-	ft_sleeper(plo, plo->args->t_die);
+	ft_sleeper(plo, plo->args->t_die); 
 	pthread_mutex_unlock(&plo->args->fork[plo->left_f]);
 	printer(plo, DIED);
 	pthread_mutex_lock(&plo->args->checks);

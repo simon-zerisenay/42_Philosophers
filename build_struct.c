@@ -18,7 +18,7 @@ int	validate_args(int ac, char **av)
 	{
 		printf("%s\n", ERROR2);
 		printf("%s\n", ERROR3);
-		return (FAILURE);
+		return (FAILURE); 
 	}
 	if (ac == 6)
 	{

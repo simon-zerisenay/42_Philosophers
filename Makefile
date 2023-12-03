@@ -15,7 +15,7 @@ NAME = philo
 CFLAGS = -g -Wall -Wextra -Werror -pthread
 
 RM = rm -rf
-   
+
 SRCS = 	philosophers.c build_struct.c utilities.c simulation.c timing.c operations.c
 
 $(NAME) :

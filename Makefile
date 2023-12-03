@@ -10,7 +10,7 @@
 #                                                                              #
 # **************************************************************************** #
 
-NAME = philo 
+NAME = philo  
 
 CFLAGS = -g -Wall -Wextra -Werror -pthread
 

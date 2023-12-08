@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "philo.h"
+#include "philo.h" 
   
 int	validate_args(int ac, char **av)
 {

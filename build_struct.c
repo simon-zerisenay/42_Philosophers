@@ -22,7 +22,7 @@ int	validate_args(int ac, char **av)
 	}
 	if (ac == 6)
 	{ 
-		if (av[5][0] == '\0')
+		if (av[5][0] == '\0') 
 		{
 			printf("%s", ERROR1);
 			return (FAILURE);

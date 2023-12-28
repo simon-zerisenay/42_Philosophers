@@ -13,7 +13,7 @@
 #include "philo.h" 
   
 int	validate_args(int ac, char **av)
-{
+{ 
 	if (ac != 5 && ac != 6)   
 	{  
 		printf("%s\n", ERROR2);    

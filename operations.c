@@ -15,7 +15,7 @@
 void	*single_philo(void *p)
 { 
 	t_philo	*plo;   
- 
+  
 	plo = (t_philo *)p; 
 	pthread_mutex_lock(&plo->args->fork[plo->left_f]);
 	printer(plo, GFORK);

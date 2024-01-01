@@ -93,7 +93,7 @@ void	init_philos(t_store *store)
 		store->philo[i].last_meal = 0;
 		store->philo[i].left_f = i;
 		store->philo[i].right_f = (i + 1) % store->n_philo;
-		store->philo[i].args = store;
+		store->philo[i].args = store; 
 		i++;
 	}
 }

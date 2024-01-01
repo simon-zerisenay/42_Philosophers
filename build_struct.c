@@ -66,7 +66,7 @@ int	init_start(char **av, t_store *store)
 	store->t_die = ft_atoi(av[2]);
 	store->t_eat = ft_atoi(av[3]);
 	store->t_sleep = ft_atoi(av[4]);
-	if (check_overflow(store, av))
+	if (check_overflow(store, av)) 
 	{
 		printf("%s", ERROR1);
 		return (free(store), 1);

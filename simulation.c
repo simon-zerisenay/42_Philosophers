@@ -21,7 +21,7 @@ void	philo_start(t_store *store)
 	else
 	{
 		i = -1;
-		while (++i < store->n_philo)
+		while (++i < store->n_philo) 
 			pthread_create(&store->philo[i].thd, NULL,
 				&routine, (void *)&store->philo[i]);
 		while (store->fnsh_game == false)

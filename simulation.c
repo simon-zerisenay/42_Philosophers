@@ -80,7 +80,7 @@ void	check_life(t_philo *plo)
 		pthread_mutex_unlock(&plo->args->checks);
 		printer(plo, DIED);
 		pthread_mutex_lock(&plo->args->checks);
-		plo->args->fnsh_game = true;
+		plo->args->fnsh_game = true; 
 		pthread_mutex_unlock(&plo->args->checks);
 	}
 	if (lock)

@@ -23,7 +23,7 @@ void	philo_start(t_store *store)
 		i = -1;
 		while (++i < store->n_philo) 
 			pthread_create(&store->philo[i].thd, NULL,
-				&routine, (void *)&store->philo[i]);
+				&routine, (void *)&store->philo[i]); 
 		while (store->fnsh_game == false)
 			monitor(store);
 	}

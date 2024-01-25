@@ -96,7 +96,7 @@ void	meal_limit_check(t_store *store)
 	{
 		while (meal_nbr < store->n_philo)
 		{
-			pthread_mutex_lock(&store->checks);
+			pthread_mutex_lock(&store->checks); 
 			if (store->philo[meal_nbr].meal_eaten < store->meal_limit)
 			{
 				pthread_mutex_unlock(&store->checks);

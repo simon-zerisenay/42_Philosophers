@@ -57,7 +57,7 @@ void	monitor(t_store *store)
 	int	death_id;
 
 	death_id = 0;
-	while (store->fnsh_game == false)
+	while (store->fnsh_game == false) 
 	{
 		check_life(&store->philo[death_id]);
 		meal_limit_check(store);

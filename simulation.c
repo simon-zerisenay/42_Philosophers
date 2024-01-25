@@ -27,7 +27,7 @@ void	philo_start(t_store *store)
 		while (store->fnsh_game == false)
 			monitor(store);
 	}
-}
+} 
  
 void	*routine(void *val)
 {

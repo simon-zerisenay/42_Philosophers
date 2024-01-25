@@ -28,7 +28,7 @@ void	philo_start(t_store *store)
 			monitor(store);
 	}
 }
-
+ 
 void	*routine(void *val)
 {
 	t_philo	*plo;
